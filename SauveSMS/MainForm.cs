@@ -275,6 +275,7 @@ namespace SauveSMSGraphique
             this.btnBackup = new System.Windows.Forms.Button();
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.btnOpenBackupFolder = new System.Windows.Forms.Button();
+            this.lblCopyright = new System.Windows.Forms.Label();
             this.SuspendLayout();
 
             // 
@@ -282,12 +283,12 @@ namespace SauveSMSGraphique
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 105);
+            this.ClientSize = new System.Drawing.Size(250, 105);
             this.Controls.Add(this.btnOpenBackupFolder);
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.btnBackup);
             this.Name = "MainForm";
-            this.Text = "Sauvegarde SMS Android";
+            this.Text = "SauveSMS 0.1";
             this.ResumeLayout(false);
 
 
@@ -304,21 +305,32 @@ namespace SauveSMSGraphique
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(12, 41);
+            this.progressBar.Location = new System.Drawing.Point(12, 70);
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(260, 23);
             this.progressBar.TabIndex = 1;
             // 
             // btnOpenBackupFolder
             // 
-            this.btnOpenBackupFolder.Location = new System.Drawing.Point(12, 70);
+            this.btnOpenBackupFolder.Location = new System.Drawing.Point(12, 41);
             this.btnOpenBackupFolder.Name = "btnOpenBackupFolder";
             this.btnOpenBackupFolder.Size = new System.Drawing.Size(260, 23);
             this.btnOpenBackupFolder.TabIndex = 2;
             this.btnOpenBackupFolder.Text = "Ouvrir le dossier de sauvegarde";
             this.btnOpenBackupFolder.UseVisualStyleBackColor = true;
             this.btnOpenBackupFolder.Click += new System.EventHandler(this.btnOpenBackupFolder_Click);
-            
+
+            // 
+            // lblCopyright
+            // 
+            this.lblCopyright = new System.Windows.Forms.Label();
+            this.lblCopyright.AutoSize = true;
+            this.lblCopyright.Location = new System.Drawing.Point(12, 100); 
+            this.lblCopyright.Name = "lblCopyright";
+            this.lblCopyright.Size = new System.Drawing.Size(200, 13);
+            this.lblCopyright.TabIndex = 3;
+            this.lblCopyright.Text = "Guillaume FONS 2025"; 
+            this.Controls.Add(this.lblCopyright); 
         }
 
         
@@ -347,5 +359,6 @@ namespace SauveSMSGraphique
         private System.Windows.Forms.Button btnBackup;
         private System.Windows.Forms.ProgressBar progressBar;
         private System.Windows.Forms.Button btnOpenBackupFolder;
+        private System.Windows.Forms.Label lblCopyright;
     }
 }
