@@ -1,5 +1,7 @@
-SauveSMSGraph
+## SauveSMSGraph
 
+
+English : 
 
 Allow you to save your sms to a .txt file 
 on your Windows User Profile
@@ -28,7 +30,7 @@ To enable USB debugging mode on an Android phone, follow these steps:
 
 7. A warning message will appear. Read it carefully and tap "OK" to confirm.
 
-## Important Notes
+### Important Notes
 
 - The exact steps may vary slightly depending on your Android version and device manufacturer.
 - USB debugging should only be enabled when needed, as it can pose a security risk if left on permanently.
@@ -36,8 +38,17 @@ To enable USB debugging mode on an Android phone, follow these steps:
 
 Remember to disconnect your device from public USB ports when USB debugging is enabled to maintain security.
 
-SauveSMSGraph
 
+##
+
+
+
+
+
+## SauveSMSGraph
+
+
+Français :
 
 Vous permet de sauvegarder vos SMS dans un fichier .txt sur votre profil utilisateur Windows
 
@@ -45,25 +56,25 @@ Framework .Net 8.0 pour Windows 7.0 et ultérieur (x86)
 
 Important :
 
-Le mode débogage doit être activé sur votre smartphone :
+1. Le mode débogage doit être activé sur votre smartphone :
 
-Pour activer le mode débogage USB sur un téléphone Android, suivez ces étapes :
+2. Pour activer le mode débogage USB sur un téléphone Android, suivez ces étapes :
 
-Ouvrez l'application Paramètres sur votre appareil Android.
+3. Ouvrez l'application Paramètres sur votre appareil Android.
 
-Faites défiler vers le bas et appuyez sur "À propos du téléphone" ou "À propos de la tablette".
+4. Faites défiler vers le bas et appuyez sur "À propos du téléphone" ou "À propos de la tablette".
 
-Localisez le champ "Numéro de build" et appuyez dessus sept fois. Vous verrez un message disant "Vous êtes maintenant un développeur !"
+5. Localisez le champ "Numéro de build" et appuyez dessus sept fois. Vous verrez un message disant "Vous êtes maintenant un développeur !"
 
-Revenez à l'écran principal des Paramètres et trouvez "Options pour les développeurs". Cette option devrait maintenant être visible.
+6. Revenez à l'écran principal des Paramètres et trouvez "Options pour les développeurs". Cette option devrait maintenant être visible.
 
-Appuyez sur "Options pour les développeurs" et faites défiler vers le bas pour trouver "Débogage USB".
+7. Appuyez sur "Options pour les développeurs" et faites défiler vers le bas pour trouver "Débogage USB".
 
-Activez le commutateur pour activer le débogage USB.
+8. Activez le commutateur pour activer le débogage USB.
 
 Un message d'avertissement apparaîtra. Lisez-le attentivement et appuyez sur "OK" pour confirmer.
 
-Notes importantes
+### Notes importantes
 Les étapes exactes peuvent varier légèrement selon votre version Android et le fabricant de l'appareil.
 Le débogage USB ne doit être activé que lorsque nécessaire, car il peut présenter un risque de sécurité s'il est laissé activé en permanence.
 Pour désactiver le débogage USB, vous pouvez désactiver le commutateur dans le menu Options pour les développeurs.
