@@ -72,7 +72,7 @@ Important :
 
 8. Activez le commutateur pour activer le débogage USB.
 
-Un message d'avertissement apparaîtra. Lisez-le attentivement et appuyez sur "OK" pour confirmer.
+9. Un message d'avertissement apparaîtra. Lisez-le attentivement et appuyez sur "OK" pour confirmer.
 
 ### Notes importantes
 Les étapes exactes peuvent varier légèrement selon votre version Android et le fabricant de l'appareil.
