@@ -64,7 +64,7 @@ Important :
 
 4. Faites défiler vers le bas et appuyez sur "À propos du téléphone" ou "À propos de la tablette".
 
-5. Localisez le champ "Numéro de build" et appuyez dessus sept fois. Vous verrez un message disant "Vous êtes maintenant un développeur !"
+5. Localisez le champ "Numéro de build" et appuyez dessus sept fois. Vous verrez un message disant "Vous êtes maintenant développeur !"
 
 6. Revenez à l'écran principal des Paramètres et trouvez "Options pour les développeurs". Cette option devrait maintenant être visible.
 
