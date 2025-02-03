@@ -56,23 +56,23 @@ Framework .Net 8.0 pour Windows 7.0 et ultérieur (x86)
 
 Important :
 
-1. Le mode débogage doit être activé sur votre smartphone :
+Le mode débogage doit être activé sur votre smartphone :
 
-2. Pour activer le mode débogage USB sur un téléphone Android, suivez ces étapes :
+Pour activer le mode débogage USB sur un téléphone Android, suivez ces étapes :
 
-3. Ouvrez l'application Paramètres sur votre appareil Android.
+1. Ouvrez l'application Paramètres sur votre appareil Android.
 
-4. Faites défiler vers le bas et appuyez sur "À propos du téléphone" ou "À propos de la tablette".
+2. Faites défiler vers le bas et appuyez sur "À propos du téléphone" ou "À propos de la tablette".
 
-5. Localisez le champ "Numéro de build" et appuyez dessus sept fois. Vous verrez un message disant "Vous êtes maintenant développeur !"
+3. Localisez le champ "Numéro de build" et appuyez dessus sept fois. Vous verrez un message disant "Vous êtes maintenant développeur !"
 
-6. Revenez à l'écran principal des Paramètres et trouvez "Options pour les développeurs". Cette option devrait maintenant être visible.
+4. Revenez à l'écran principal des Paramètres et trouvez "Options pour les développeurs". Cette option devrait maintenant être visible.
 
-7. Appuyez sur "Options pour les développeurs" et faites défiler vers le bas pour trouver "Débogage USB".
+5. Appuyez sur "Options pour les développeurs" et faites défiler vers le bas pour trouver "Débogage USB".
 
-8. Activez le commutateur pour activer le débogage USB.
+6. Activez le commutateur pour activer le débogage USB.
 
-9. Un message d'avertissement apparaîtra. Lisez-le attentivement et appuyez sur "OK" pour confirmer.
+7. Un message d'avertissement apparaîtra. Lisez-le attentivement et appuyez sur "OK" pour confirmer.
 
 ### Notes importantes
 Les étapes exactes peuvent varier légèrement selon votre version Android et le fabricant de l'appareil.
