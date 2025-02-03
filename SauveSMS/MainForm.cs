@@ -276,6 +276,21 @@ namespace SauveSMSGraphique
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.btnOpenBackupFolder = new System.Windows.Forms.Button();
             this.SuspendLayout();
+
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 105);
+            this.Controls.Add(this.btnOpenBackupFolder);
+            this.Controls.Add(this.progressBar);
+            this.Controls.Add(this.btnBackup);
+            this.Name = "MainForm";
+            this.Text = "Sauvegarde SMS Android";
+            this.ResumeLayout(false);
+
+
             // 
             // btnBackup
             // 
@@ -303,23 +318,10 @@ namespace SauveSMSGraphique
             this.btnOpenBackupFolder.Text = "Ouvrir le dossier de sauvegarde";
             this.btnOpenBackupFolder.UseVisualStyleBackColor = true;
             this.btnOpenBackupFolder.Click += new System.EventHandler(this.btnOpenBackupFolder_Click);
-            // 
-            // MainForm
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 105);
-            this.Controls.Add(this.btnOpenBackupFolder);
-            this.Controls.Add(this.progressBar);
-            this.Controls.Add(this.btnBackup);
-            this.Name = "MainForm";
-            this.Text = "Sauvegarde SMS Android";
-            this.ResumeLayout(false);
+            
         }
 
-        private System.Windows.Forms.Button btnBackup;
-        private System.Windows.Forms.ProgressBar progressBar;
-        private System.Windows.Forms.Button btnOpenBackupFolder;
+        
 
         private void btnOpenBackupFolder_Click(object sender, EventArgs e)
         {
@@ -341,5 +343,9 @@ namespace SauveSMSGraphique
                 MessageBox.Show($"Erreur lors de l'ouverture du dossier de sauvegarde : {ex.Message}", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private System.Windows.Forms.Button btnBackup;
+        private System.Windows.Forms.ProgressBar progressBar;
+        private System.Windows.Forms.Button btnOpenBackupFolder;
     }
 }
